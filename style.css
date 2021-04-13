@@ -1,0 +1,180 @@
+@font-face {
+ font-family: "Recollet";
+ src: url("Polices/Recollet.woff2") format("woff2"),
+        url("Polices/Recollet.woff2") format("woff");
+}
+
+
+
+
+
+body{ background-color: #FFFAF0 ;
+    margin-top: 0 ;
+    margin-right: 0 ;
+    margin-left: 0 ;
+    margin-bottom:  0 ;
+    padding-top:60px;
+    background-image: linear-gradient(to bottom, #2f21c6, #2f1b93, #281563, #1c0f37, #080010);
+      }
+header {
+  position: fixed  ;
+	width: 100%;
+	height: 62px;
+	background: #fff;
+	border-bottom: 4px solid #9000ff;
+  top: 0;
+  z-index: 10;
+
+}
+
+#Logo1{height:50px ;
+           position: absolute;
+           top:6px ;
+           left:20px;
+          border-radius: 5% ;
+          box-shadow: 2px 2px 2px  #9000ff;}
+
+#Logo{width : 130px ;
+      border-radius: 100px;
+      border-bottom: solid 4px #9000ff ;
+      border-top: none;
+      border-left: solid 3px #9000ff ;
+      border-right: solid 3px #9000ff ;
+      display: block;
+    margin-left: auto;
+    margin-right: auto ;
+
+
+}
+
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+transform: scale(1.1); /* (110% zoom ) */}
+
+
+#Mainpage{   background-image: url("images/background.jpg");
+  width: 100%;
+ min-height: 1080px;
+ margin-top: 0;
+ padding-top: 0 ;
+  border: solid white 5px;
+    position: relative;
+   border-left: none;
+  border-right: none;
+ border-top: none;
+z-index: initial;
+bottom:20px;
+
+
+}
+
+#Menu{position: relative;
+      list-style-type:none;
+      display:flex;
+      flex-wrap: wrap ;
+      top:120px;
+      margin-left: 6%;
+      margin-right: 6%;
+      justify-content: space-around;
+
+      padding: 0 0 0 0;
+      }
+
+
+
+
+#Categorie{width:320px ;
+  height: 100px;
+   border: solid 3px white ;
+   border-radius: 20%;
+    padding-top: 5px ;
+   background-color: rgb(8,0,16);
+   display:flex ;
+   flex-wrap: wrap;
+   justify-content :center;
+   margin-left: 50px;
+   margin-right: 50px;
+   color: white ;
+   margin-bottom: 100px;
+
+ font-family: Recollet ;
+ font-size: 50px ;
+
+}
+
+
+#Contenant{list-style-type:none;
+   margin-top:70px;
+   margin-left:40px;
+  margin-right:40px;
+  display:flex;
+  flex-wrap: wrap ;
+  justify-content: space-around ;
+  align-content: stretch ;
+ }
+
+#block{width:320px ;
+   border: solid 3px #9000ff ;
+   border-radius: 5%;
+    padding-top: 5px ;
+   background-color: rgb(8,0,16);
+   display:flex ;
+   flex-wrap: wrap;
+   justify-content :center;
+   color: white ;
+   margin-bottom: 20px;
+   margin-right: 20px;
+ font-family: Recollet ;
+
+  }
+ #price {font-Size: 30px ;
+         margin-top: 10px;
+         margin-bottom: 5px;}
+ #nomvoiture{ font-Size:50px ;
+              padding-top:0;
+              margin-top: 0;
+            margin-bottom: 0;}
+
+
+#voiture{width:300px;
+        border-radius: 5%;
+      }
+
+
+#pluspetit{font-size:40px;
+           padding-top: 0;
+           margin-top: 0;
+         margin-bottom: 0;
+          }
+
+
+footer {
+	height: 100px;
+	width: 100%;
+	background: #080010;
+  position: relatives;
+  bottom: 0;
+	margin-top: 100px;
+}
+footer .top_line {
+	height: 8px;
+	width: 100%;
+	top: 0;
+	background: rgb(156, 0, 255);
+	background: -moz-linear-gradient(90deg, rgba(156, 0, 255, 1) 0%, rgba(227, 0, 235, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(156, 0, 255, 1) 0%, rgba(227, 0, 235, 1) 100%);
+	background: linear-gradient(90deg, rgba(156, 0, 255, 1) 0%, rgba(227, 0, 235, 1) 100%);
+}
+footer img{ height:50px;}
+footer a{font-size:40px ;
+          text-decoration:none;}
+footer .social_links{list-style-type: none;
+                    display: inline ;
+                    margin-right: 20px ;
+                    margin-left:20px}
+div{display: table;   /* Allow the centering to work */
+	margin: 0 auto;}
