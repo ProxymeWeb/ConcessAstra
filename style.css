@@ -26,6 +26,14 @@ header {
   z-index: 10;
 
 }
+#discord{height: 50px ;
+         position: absolute;
+         top:6px ;
+         right: 10px
+          }
+
+
+
 
 #Logo1{height:50px ;
            position: absolute;
@@ -43,8 +51,6 @@ header {
       display: block;
     margin-left: auto;
     margin-right: auto ;
-
-
 }
 
 
@@ -56,21 +62,37 @@ header {
 transform: scale(1.1); /* (110% zoom ) */}
 
 
-#Mainpage{   background-image: url("images/background.jpg");
-  width: 100%;
- min-height: 1080px;
- margin-top: 0;
- padding-top: 0 ;
-  border: solid white 5px;
-    position: relative;
-   border-left: none;
-  border-right: none;
- border-top: none;
-z-index: initial;
-bottom:20px;
+#Mainpage{
+      background-image: url("images/background.jpg");
+      width: 100%;
+      min-height: 1080px;
+      margin-top: 0;
+      padding-top: 0 ;
+      border: solid white 5px;
+      position: relative;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      z-index: initial;
+      bottom:20px;
+      margin-bottom: 0;
 
 
 }
+#Mainpage a{ text-decoration: none ;
+             margin: none ;
+             padding: none;
+           }
+
+#Title{font-family: Recollet ;
+            font-size: 100px;
+            padding-top:0 ;
+            margin-top:0 ;
+            top: 100px;
+            position: relative;
+            text-align: center;
+            color: white}
+
 
 #Menu{position: relative;
       list-style-type:none;
@@ -80,7 +102,6 @@ bottom:20px;
       margin-left: 6%;
       margin-right: 6%;
       justify-content: space-around;
-
       padding: 0 0 0 0;
       }
 
@@ -88,56 +109,56 @@ bottom:20px;
 
 
 #Categorie{width:320px ;
-  height: 100px;
-   border: solid 3px white ;
-   border-radius: 20%;
-    padding-top: 5px ;
-   background-color: rgb(8,0,16);
-   display:flex ;
-   flex-wrap: wrap;
-   justify-content :center;
-   margin-left: 50px;
-   margin-right: 50px;
-   color: white ;
-   margin-bottom: 100px;
-
- font-family: Recollet ;
- font-size: 50px ;
+          height: 100px;
+          border: solid 3px white ;
+          border-radius: 20%;
+          padding-top: 5px ;
+          background-color: rgb(8,0,16);
+          display:flex ;
+          flex-wrap: wrap;
+          justify-content :center;
+          margin-left: 50px;
+          margin-right: 50px;
+          color: white ;
+          margin-bottom: 100px;
+          font-family: Recollet ;
+          font-size: 50px ;
 
 }
 
 
 #Contenant{list-style-type:none;
-   margin-top:70px;
-   margin-left:40px;
-  margin-right:40px;
-  display:flex;
-  flex-wrap: wrap ;
-  justify-content: space-around ;
-  align-content: stretch ;
+          margin-top:70px;
+          margin-left:40px;
+          margin-right:40px;
+          display:flex;
+          flex-wrap: wrap ;
+          justify-content: space-around ;
+          align-content: stretch ;
  }
 
 #block{width:320px ;
-   border: solid 3px #9000ff ;
-   border-radius: 5%;
-    padding-top: 5px ;
-   background-color: rgb(8,0,16);
-   display:flex ;
-   flex-wrap: wrap;
-   justify-content :center;
-   color: white ;
-   margin-bottom: 20px;
-   margin-right: 20px;
- font-family: Recollet ;
+      border: solid 3px #9000ff ;
+      border-radius: 5%;
+      padding-top: 5px ;
+      background-color: rgb(8,0,16);
+      display:flex ;
+      flex-wrap: wrap;
+      justify-content :center;
+      color: white ;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      font-family: Recollet ;
 
   }
  #price {font-Size: 30px ;
          margin-top: 10px;
          margin-bottom: 5px;}
+
  #nomvoiture{ font-Size:50px ;
               padding-top:0;
               margin-top: 0;
-            margin-bottom: 0;}
+              margin-bottom: 0;}
 
 
 #voiture{width:300px;
@@ -148,17 +169,20 @@ bottom:20px;
 #pluspetit{font-size:40px;
            padding-top: 0;
            margin-top: 0;
-         margin-bottom: 0;
+           margin-bottom: 0;
           }
 
-
 footer {
-	height: 100px;
+	height: 140px;
 	width: 100%;
 	background: #080010;
   position: relatives;
   bottom: 0;
 	margin-top: 100px;
+  color: white;
+ text-align: center ;
+  margin: 0 ;
+  padding-top: 0;
 }
 footer .top_line {
 	height: 8px;
@@ -176,5 +200,5 @@ footer .social_links{list-style-type: none;
                     display: inline ;
                     margin-right: 20px ;
                     margin-left:20px}
-div{display: table;   /* Allow the centering to work */
-	margin: 0 auto;}
+div {display : table ;
+     margin:0 auto;}
